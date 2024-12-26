@@ -96,7 +96,7 @@ const EWasteRiskMap: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto p-6 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+    <div className="p-4 bg-gradient-to-br from-green-50 to-blue-50 min-h-screen">
       <div className="flex flex-col-reverse lg:flex-row gap-6">
         <div className="w-full lg:w-2/3 bg-white rounded-2xl shadow-2xl overflow-hidden">
           <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
