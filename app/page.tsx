@@ -23,7 +23,7 @@ export default function RecyclingLandingPage() {
               className="bg-green-500 hover:bg-green-600 text-white rounded-full px-8"
               asChild
             >
-              <Link href="/recycling">
+              <Link href="/lifeCicle">
               leia mais
               </Link>
             </Button>
