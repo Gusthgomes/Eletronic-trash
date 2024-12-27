@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import EwasteFacts from "@/components/FactCard"
 
 export default function RecyclingLandingPage() {
   return (
@@ -48,6 +49,8 @@ export default function RecyclingLandingPage() {
       <div className="fixed top-40 right-40 animate-float delay-200">
         <div className="w-6 h-6 rounded-full bg-green-300" />
       </div>
+
+      <EwasteFacts/>
     </div>
   )
 }
