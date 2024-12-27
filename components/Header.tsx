@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Trash, TriangleAlert, ThumbsUp, Dices} from "lucide-react"
+import { Trash, TriangleAlert, ThumbsUp, Dices, User } from "lucide-react"
 import Link from "next/link";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 </Link>
 
                 <h1 className="font-bold text-xl font-mono text-green-700">
-                    E-lixo
+                    E-Waste
                 </h1>
             </div>
 
@@ -30,6 +30,11 @@ const Header = () => {
                 <Link href="/quiz" className="flex items-center gap-1 text-green-600">
                     Quiz
                     <Dices size={24} className="text-green-500" />
+                </Link>
+
+                <Link href="/about" className="flex items-center gap-1 text-green-600">
+                    Sobre
+                    <User size={24} className="text-green-500" />
                 </Link>
             </div>
             </CardContent>
