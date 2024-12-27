@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Smartphone, Laptop, Printer, Battery, Factory, ShoppingCart, Trash2, Recycle, AlertTriangle } from 'lucide-react'
+import { Smartphone, Laptop, Printer, Battery, Factory, ShoppingCart, Trash2, Recycle, AlertTriangle } from 'lucide-react';
+import Link from "next/link";
 
 export default function EWasteInfo() {
   return (
@@ -34,6 +35,7 @@ export default function EWasteInfo() {
 
           <Card>
             <CardContent className="p-6">
+            <Link href="/gallery">
               <h3 className="text-xl font-semibold mb-4">Exemplos Comuns</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center gap-2">
@@ -53,6 +55,7 @@ export default function EWasteInfo() {
                   <span>Baterias</span>
                 </div>
               </div>
+              </Link>
             </CardContent>
           </Card>
         </div>
