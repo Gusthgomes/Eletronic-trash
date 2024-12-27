@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, SVGProps } from 'react';
 import { Info, Factory, Droplet, Skull, Zap, AlertTriangle } from 'lucide-react';
 
 type RiskZone = {
   id: string;
   name: string;
   position: { x: number; y: number };
-  icon: any;
+  icon: React.ReactElement<SVGProps<SVGSVGElement>>;
   description: string;
   risks: string[];
   color: string;
